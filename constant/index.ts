@@ -1,13 +1,13 @@
-import {
-  blackImg,
-  blueImg,
-  highlightFirstVideo,
-  highlightFourthVideo,
-  highlightSecondVideo,
-  highlightThirdVideo,
-  whiteImg,
-  yellowImg,
-} from "../utils";
+// import {
+//   blackImg,
+//   blueImg,
+//   highlightFirstVideo,
+//   highlightFourthVideo,
+//   highlightSecondVideo,
+//   highlightThirdVideo,
+//   whiteImg,
+//   yellowImg,
+// } from "../utils";
 
 export const navLists = ["Store", "Mac", "iPhone", "Support"];
 
@@ -19,13 +19,13 @@ export const hightlightsSlides = [
       "Game‑changing chip.",
       "Groundbreaking performance.",
     ],
-    video: highlightFirstVideo,
+    video: "/assets/videos/highlight-first.mp4",
     videoDuration: 4,
   },
   {
     id: 2,
     textLists: ["Titanium.", "So strong. So light. So Pro."],
-    video: highlightSecondVideo,
+    video: "/assets/videos/hightlight-third.mp4",
     videoDuration: 5,
   },
   {
@@ -35,13 +35,13 @@ export const hightlightsSlides = [
       "longest optical zoom in",
       "iPhone ever. Far out.",
     ],
-    video: highlightThirdVideo,
+    video: "/assets/videos/hightlight-sec.mp4",
     videoDuration: 2,
   },
   {
     id: 4,
     textLists: ["All-new Action button.", "What will yours do?."],
-    video: highlightFourthVideo,
+    video: "/assets/videos/hightlight-fourth.mp4",
     videoDuration: 3.63,
   },
 ];
@@ -51,25 +51,25 @@ export const models = [
     id: 1,
     title: "iPhone 15 Pro in Natural Titanium",
     color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-    img: yellowImg,
+    img: "/assets/images/yellow.jpg",
   },
   {
     id: 2,
     title: "iPhone 15 Pro in Blue Titanium",
     color: ["#53596E", "#6395ff", "#21242e"],
-    img: blueImg,
+    img: "/assets/images/blue.jpg",
   },
   {
     id: 3,
     title: "iPhone 15 Pro in White Titanium",
     color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
-    img: whiteImg,
+    img: "/assets/images/white.jpg",
   },
   {
     id: 4,
     title: "iPhone 15 Pro in Black Titanium",
     color: ["#454749", "#3b3b3b", "#181819"],
-    img: blackImg,
+    img: "/assets/images/black.jpg",
   },
 ];
 
